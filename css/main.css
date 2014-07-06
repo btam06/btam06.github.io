@@ -1,0 +1,126 @@
+/* General Settings*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida", "Grande", sans-serif;
+	position: relative;
+	z-index: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Navigation*/
+.nav {
+	width: 100%;
+	position: fixed;
+	height: 30px;
+	line-height: 30px;
+	top: 0px;
+	background-color: black;
+	z-index: 100;
+}
+
+.nav ul {
+	width: 550px;
+	list-style: none;
+	margin: auto;
+}
+
+.nav ul li {
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	color: white;
+}
+
+.nav ul li a {
+	color: white;
+}
+
+.nav ul li a:hover{
+	cursor: pointer;
+	color: red;
+}
+
+
+.content {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.panel {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	min-height: 80vh;
+	position: relative;
+	background-position: center;
+}
+
+.red {
+	background-color: #770000;
+}
+
+.red p {
+	float: right;
+}
+
+.white {
+	background-color: white;
+}
+
+.panel p {
+	border: 1px solid black;
+	border-radius: 15px;
+	display: inline-block;
+	margin: 45px 15px;
+	padding: 15px;
+	max-width: 30%;
+	color: black;
+	background-color: white;
+}
+
+.home {
+
+}
+
+.mission {
+	background-image: url('../images/wave.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.services {
+
+}
+
+.portfolio {
+	background-image: url('../images/portfolio.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.portfolio .thumbnail {
+	float: right;
+	clear: both;
+	margin: 15px;
+}
+
+.portfolio .thumbnail span {
+	display: inline-block;
+	text-align: left;
+	width: 200px;
+	color: #CC6633;
+	background-color: white;
+	float: right;
+}
+
+.contact {
+	background-image: url('../images/contact.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	height: 100vh;
+}
