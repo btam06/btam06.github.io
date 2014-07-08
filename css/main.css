@@ -58,6 +58,8 @@ a {
 	min-height: 80vh;
 	position: relative;
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 50%;
 }
 
 .red {
@@ -81,6 +83,7 @@ a {
 	max-width: 30%;
 	color: black;
 	background-color: white;
+	
 }
 
 .home {
@@ -88,19 +91,16 @@ a {
 }
 
 .mission {
-	background-image: url('../images/wave.png');
-	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-image: url('../images/user.svg');
 }
 
 .services {
-
+	background-image: url('../images/tags.svg');
 }
 
 .portfolio {
-	background-image: url('../images/portfolio.png');
-	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-image: url('../images/hammer.svg');
+
 }
 
 .portfolio .thumbnail {
@@ -119,8 +119,6 @@ a {
 }
 
 .contact {
-	background-image: url('../images/contact.png');
-	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-image: url('../images/mail.svg');
 	height: 100vh;
 }
