@@ -98,15 +98,15 @@ a {
 }
 
 .mission {
-	background-image: url('../images/user.svg');
+	background-image: url('../images/icon-figure.png');
 }
 
 .services {
-	background-image: url('../images/tags.svg');
+	background-image: url('../images/icon-pricetag.png');
 }
 
 .portfolio {
-	background-image: url('../images/hammer.svg');
+	background-image: url('../images/icon-portfolio.png');
 
 }
 
@@ -132,6 +132,12 @@ a {
 }
 
 .contact {
-	background-image: url('../images/mail.svg');
+	background-image: url('../images/icon-contact.png');
 	height: 100vh;
+}
+
+.contact a.social {
+	display: inline-block;
+	margin-top: 5px;
+	cursor: pointer;
 }
